@@ -1,4 +1,5 @@
 #!/bin/bash
+# USAGE: ./add_string_at_position -i "Test Input String" -p 12 -f /path/to/file.txt
 
 while [ "$1" != "" ]; do
   case $1 in
